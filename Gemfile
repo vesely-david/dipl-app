@@ -38,10 +38,11 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development, :test do
-  gem 'debugger'
+  #gem 'debugger'
   gem 'rspec-rails'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+  #gem 'better_errors'
+  #gem 'binding_of_caller'
 end
 
